@@ -2,6 +2,14 @@
 <html>
 <head>
   <title>An inaccessible HTML page</title>
+  <style>
+    p {
+      /* Hex code: #...... */
+      /*           #RRGGBB */
+      color: #FF00FF;
+    }
+  </style>
+  <!-- ALL OF THIS IS WRONG! THESE ARE ALL _COUNTER_ EXAMPLES. -->
 </head>
 <body>
   <h1 style="font-size: 12px;">Is this the title of the page?</h1>
@@ -16,9 +24,13 @@
   <img src="not-a-real-image.jpg">
 
   <p>Sign up for updates:</p>
-  <input type="text" placeholder="Your name">
-  <input type="email" placeholder="Email address">
-  <div onclick="alert('Submitted!')" style="background-color: lightgray; padding: 8px; width: 100px;">Submit</div>
+  <form>
+    <label for="name">Your Name:</label>
+    <input id="name" type="text" placeholder="Your name">
+    <label for="email">Your email:</label>
+    <input id="email" type="email" placeholder="Email address">
+    <div onclick="alert('Submitted!')" style="background-color: lightgray; padding: 8px; width: 100px;">Submit</div>
+  </form>
 
   <div style="font-size: 24px; font-weight: bold;">Important announcement</div>
   <div>This announcement is visually prominent, but it is not marked as a heading.</div>

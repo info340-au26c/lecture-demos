@@ -1,0 +1,13 @@
+a:nth-child(2) {
+  color: #FF0000;
+}
+
+section, p, h3 {
+  color: green;
+  font-size: 14pt;
+}
+
+p {
+  text-decoration: underline;
+  font-size: 8pt;
+}
