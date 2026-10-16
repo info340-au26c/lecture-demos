@@ -1,0 +1,22 @@
+#container {
+  border: 1px solid black;
+  display: inline-block;
+background-color: lightgray;
+}
+
+#container > div {
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+div:nth-child(2n) {
+  background-color: rgb(71, 71, 71);
+  color: white;
+}
+div:nth-child(2n+1) {
+  background-color: white;
+}

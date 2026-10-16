@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+strong {
+  height: 2em;
+  /* width: 1000px; */
+  display: inline-block;
+  border: 1px dotted black;
+}
+
+div {
+  border: 2px dotted blue;
+  width: 50%;
+}
+
+p {
+  margin: 5px;
+  border: 1px solid black;
+}

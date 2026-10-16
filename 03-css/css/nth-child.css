@@ -1,0 +1,7 @@
+#inner {
+  color: red;
+}
+
+p:nth-child(2n+1) {
+  color: darkgray;
+}
