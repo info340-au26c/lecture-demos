@@ -1,8 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
 #container {
   border: 1px solid black;
-  display: inline-block;
-background-color: lightgray;
+  display: flex;
+  background-color: lightgray;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
+
+#one {
+  flex-grow: 2;
+}
+
+/* 
+#one {
+  display: none;
+  /* Option:
+  a) box 1 will be completely gone; these are redundant properties
+  b) box 1 will be "gone"--takes up space but not visible
+  visibility: hidden;
+} */
 
 #container > div {
   padding: 10px;
