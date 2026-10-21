@@ -1,0 +1,22 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.topics-section .card {
+  border: 1px solid black;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.topics-section img {
+  max-width: 150px;
+}
+
+#card-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hide {
+  border: 10px solid black;
+}
