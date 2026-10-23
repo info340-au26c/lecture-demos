@@ -21,3 +21,19 @@ nav {
 .card-box {
   display: flex;
 }
+
+@media (min-width: 768px) {
+  body {
+    background-color: blueviolet;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-box {
+    flex-direction: column;
+  }
+
+  p > img {
+    margin: 25%;
+  }
+}

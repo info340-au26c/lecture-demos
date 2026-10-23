@@ -20,3 +20,7 @@ body {
 #hide {
   border: 10px solid black;
 }
+
+.p-lg-8 {
+  margin: 8rem;
+}
