@@ -1,0 +1,12 @@
+#msgList {
+  margin: 0% 5% 12px 15%;
+  padding: 4px;
+  text-align: left;
+  border: 1px solid grey;
+  overflow: scroll;
+  height: 200px;
+}
+
+#sendButton {
+  margin-left: 4px;
+}
