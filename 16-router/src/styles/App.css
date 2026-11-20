@@ -1,0 +1,36 @@
+#msgList {
+  margin: 0% 5% 12px 15%;
+  padding: 4px;
+  text-align: left;
+  border: 1px solid grey;
+  overflow: scroll;
+  height: 200px;
+}
+
+#sendButton {
+  margin-left: 4px;
+}
+
+.channelName {
+  text-align: left;
+  margin-left: 20%;
+}
+
+#chatContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#messages {
+  flex: 1;
+}
+
+#links {
+  width: 100px;
+}
+
+#links > ol {
+  list-style: none;
+  padding-left: 8px;
+}
